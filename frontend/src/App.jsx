@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://mern-print-portal.onrender.com/api';
 
 export default function App() {
   const [file, setFile] = useState(null);
